@@ -1,0 +1,40 @@
+.title {
+  font-size: 30px;
+  color: rgb(81, 129, 207);
+  font-weight: 500;
+}
+
+.story {
+  height: 150px;
+  background-color: rgb(116, 164, 192);
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 2px 3px #888888;
+
+  &:hover {
+    background-color: rgb(69, 133, 170);
+  }
+
+  h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #f6f6f6;
+    flex: 0.7;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #f6f6f6;
+  }
+
+  .details {
+    flex: 0.3;
+
+    p {
+      font-size: 18px;
+      color: #f6f6f6;
+      font-weight: 400;
+    }
+  }
+}
